@@ -1,0 +1,32 @@
+{
+  "name": "cli-alerts-codeword7",
+  "version": "0.0.1",
+  "description": "Cross platform CLI Alerts with colors",
+  "keywords": [
+    "CLI alerts",
+    "codeword7",
+    "Neeraj Kumar"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "codeword7/neeraj",
+  "author": {
+    "name": "Neeraj Kumar",
+    "email": "ny29599@gmail.com",
+    "url": "https://twitter.com/codeword007"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "log-symbols": "^4.1.0"
+  }
+}
